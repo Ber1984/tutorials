@@ -1,0 +1,15 @@
+spring:
+  h2:
+    console:
+      enabled: true
+  datasource:
+    generate-unique-name: false
+    name: sql
+    url: jdbc:mysql://localhost:33060/users?connectionCollation=utf8mb4_unicode_ci?jdbcCompliantTruncation=false
+    username: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: secret
+
+  jpa:
+    show-sql: true
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
