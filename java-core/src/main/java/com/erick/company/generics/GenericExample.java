@@ -1,4 +1,4 @@
-package com.erick.company;
+package com.erick.company.generics;
 
 public class GenericExample<T> {  // We use < > to specify Parameter type
     // To create an instance of generic class
