@@ -1,4 +1,4 @@
-package com.erick.company;
+package com.erick.company.generics;
 
 import java.util.ArrayList;
 import java.util.List;
