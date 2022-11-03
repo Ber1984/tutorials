@@ -34,4 +34,5 @@ build/
 .vscode/
 
 ### Project ###
-spring-security/jtw-authentication/src/main/resources/certs/private.pem
+spring-security/jtw-authentication/src/main/resources/certs/
+
