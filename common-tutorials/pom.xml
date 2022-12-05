@@ -13,6 +13,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>csv-sql-example</module>
+        <module>kafta-streams</module>
     </modules>
 
     <properties>
