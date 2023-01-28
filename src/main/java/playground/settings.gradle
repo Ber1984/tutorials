@@ -1,0 +1,4 @@
+package playground
+
+rootProject.name = 'playground'
+

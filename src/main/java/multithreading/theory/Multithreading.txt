@@ -1,0 +1,11 @@
+What is Multithreading?
+Multithreading means that you have multiple threads of execution inside the same application. A thread is like a separate CPU executing your application.
+Thus, a multithreaded application is like an application that has multiple CPUs executing different parts of the code at the same time.
+
+Multitasking
+Later came multitasking which meant that computers could execute multiple programs (AKA tasks or processes) at the same time.
+It wasn't really "at the same time" though.
+ The single CPU was shared between the programs.
+ The operating system would switch between the programs running, executing each of them for a little while before switching.
+
+Along with multitasking came new challenges for software developers. Programs can no longer assume to have all the CPU time available, nor all memory or any other computer resources. A "good citizen" program should release all resources it is no longer using, so other programs can use them

@@ -1,0 +1,4 @@
+Concurrent systems can be implemented using different concurrency models.
+A concurrency model specifies how threads in the the system collaborate to complete the tasks they are are given.
+Different concurrency models split the tasks in different ways, and the threads may communicate and collaborate in different ways.
+This concurrency model tutorial will dive a bit deeper into the most popular concurrency models in use at the time of writing (2015 - 2019).
