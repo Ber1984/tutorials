@@ -8,7 +8,8 @@
         <module>data-structure</module>
         <module>java-core</module>
 		<module>common-tutorials</module>
-	</modules>
+        <module>playground</module>
+    </modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
