@@ -5,9 +5,20 @@ import java.util.List;
 
 public class MageFactory extends Hero {
 
+    private MageLevel level;
+
+    public MageLevel getLevel() {
+        return level;
+    }
+
+    public void setLevel(MageLevel level) {
+        this.level = level;
+    }
+
     public MageFactory() {
         this.setValidWeaponTypes(loadWeapon());
         this.setValidArmorTypes(loadArmor());
+        this.level = loadLevel();
     }
 
     private List<String> loadWeapon() {
@@ -24,5 +35,9 @@ public class MageFactory extends Hero {
         armors.add("armor2");
         armors.add("armor3");
         return armors;
+    }
+
+    private MageLevel loadLevel() {
+        return new MageLevel(1, 7, 1);
     }
 }

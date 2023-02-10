@@ -7,9 +7,8 @@ public abstract class Hero {
     private String name;
     private List<String> validWeaponTypes;
     private List<String> validArmorTypes;
-    private static final int level = 1;
     private static int num = 20;
-    public int getLevel(){ return level; }
+
     public String getName() {
         return name;
     }
@@ -40,4 +39,6 @@ public abstract class Hero {
     public void addWeapon(String weapon) {
         validWeaponTypes.add(weapon);
     }
+
+
 }

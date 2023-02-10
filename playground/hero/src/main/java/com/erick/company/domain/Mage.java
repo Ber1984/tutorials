@@ -1,7 +1,6 @@
 package com.erick.company.domain;
 
 public class Mage extends MageFactory {
-
     /*
     add new attributes
      */
