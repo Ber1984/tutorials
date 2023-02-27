@@ -9,6 +9,7 @@
         <module>java-core</module>
 		<module>common-tutorials</module>
         <module>playground</module>
+        <module>spring-boot-3</module>
     </modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
