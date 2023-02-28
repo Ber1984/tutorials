@@ -36,6 +36,11 @@ public class JavaCore {
 
         System.out.println("1804".substring(2));
 
+        String s1 = "abc";
+        String s2 = "def";
+        String s3 = "abcdef";
+
+
     }
     public static void withFlatMap() {
         List<String> collectLists = lists.stream()
