@@ -10,6 +10,8 @@
 		<module>common-tutorials</module>
         <module>playground</module>
         <module>spring-boot-3</module>
+        <module>java-concurrent</module>
+        <module>algorithms</module>
     </modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
