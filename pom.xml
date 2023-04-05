@@ -12,6 +12,7 @@
         <module>spring-boot-3</module>
         <module>java-concurrent</module>
         <module>algorithms</module>
+        <module>clean-arquitecture</module>
     </modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
