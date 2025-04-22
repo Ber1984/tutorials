@@ -9,6 +9,8 @@
     <modules>
         <module>spring-boot-3</module>
         <module>bulkhead</module>
+        <module>circuit-braker</module>
+        <module>spring-security</module>
     </modules>
     <artifactId>spring-boot1</artifactId>
     <packaging>pom</packaging>

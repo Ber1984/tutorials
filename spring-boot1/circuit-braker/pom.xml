@@ -3,15 +3,16 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.erick.company</groupId>
-        <artifactId>spring-boot-3</artifactId>
+        <artifactId>spring-boot1</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
+    <modules>
+        <module>CircuitBreakerDemo</module>
+        <module>resilience-circuitbreaker</module>
+    </modules>
 
     <artifactId>circuit-braker</artifactId>
-    <packaging>jar</packaging>
-
-    <name>circuit-braker</name>
-    <url>http://maven.apache.org</url>
+    <packaging>pom</packaging>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
