@@ -7,7 +7,7 @@ import java.util.Map;
 public class TwoSumHashMap {
 
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(twoSum(new int[]{5,5}, 7)));
+        System.out.println(Arrays.toString(twoSum(new int[]{3,4,5,6}, 7)));
     }
 
     public static int[] twoSum(int[] nums, int target) {

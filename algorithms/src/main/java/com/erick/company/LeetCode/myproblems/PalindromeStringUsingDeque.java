@@ -18,9 +18,9 @@ public class PalindromeStringUsingDeque {
         }
 
         while (deque.size() > 1){
-            if(deque.peekFirst().charValue() != deque.peekLast().charValue()) return false; //Palindrome check (while loop): O(n/2) = O(n)
-            deque.removeFirst();
-            deque.removeLast();
+            if(deque.removeFirst().charValue() != deque.removeLast().charValue()) return false; //Palindrome check (while loop): O(n/2) = O(n)
+            //deque.removeFirst();
+            //deque.removeLast();
         }
 
         //Each operation (peekFirst, peekLast, removeFirst, removeLast) is O(1) in ArrayDeque.
