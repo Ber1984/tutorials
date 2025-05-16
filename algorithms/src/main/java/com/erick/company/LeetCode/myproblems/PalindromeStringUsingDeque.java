@@ -17,7 +17,7 @@ public class PalindromeStringUsingDeque {
             deque.add(ch); //Deque construction (for loop): O(n) — where n is the length of the input string.
         }
 
-        while (deque.size() > 1){
+        while (deque.size() > 1){ //case for only one character
             if(deque.removeFirst().charValue() != deque.removeLast().charValue()) return false; //Palindrome check (while loop): O(n/2) = O(n)
             //deque.removeFirst();
             //deque.removeLast();

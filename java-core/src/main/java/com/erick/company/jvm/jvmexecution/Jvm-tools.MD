@@ -1,0 +1,10 @@
+Jconsole
+
+jvisualvm
+
+jstack
+
+jmap
+
+
+

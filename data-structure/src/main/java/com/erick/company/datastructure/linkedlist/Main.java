@@ -1,4 +1,4 @@
-package com.erick.company.datastructure;
+package com.erick.company.datastructure.linkedlist;
 
 public class Main {
     public static void main(String[] args) {
