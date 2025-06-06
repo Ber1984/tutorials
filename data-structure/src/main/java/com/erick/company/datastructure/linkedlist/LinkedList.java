@@ -1,12 +1,50 @@
-package com.erick.company.datastructure;
+package com.erick.company.datastructure.linkedlist;
+/*
+ What is a LinkedList?
+A LinkedList is a linear data structure where elements (called nodes) are stored in non-contiguous memory locations and are linked using pointers. Each node contains:
 
+Data
+
+Reference to the next node (and optionally, the previous node in doubly linked lists)
+
+Java provides LinkedList as a part of the java.util package, which implements both:
+
+List interface → ordered collection (like ArrayList)
+
+Deque interface → double-ended queue (can add/remove from both ends)
+
+🧱 Types of Linked Lists
+Singly Linked List
+
+Each node points to the next.
+
+Unidirectional.
+
+Simple and uses less memory.
+
+Doubly Linked List
+
+Each node points to both the next and previous nodes.
+
+Bidirectional.
+
+Slightly more memory due to extra pointer.
+
+Circular Linked List
+
+Last node points back to the first.
+
+Can be singly or doubly circular.
+
+The head is the first node of a linked list.
+ */
 public class LinkedList {
-    Node head;
+    Node head; //head is the node itself
     int total;
 
     public static class Node {
         int data;
-        Node next;
+        Node next; //point to the next node
 
         public Node(int data) {
             this.data = data;
@@ -28,11 +66,11 @@ public class LinkedList {
         return control;
     }
 
-    public void append(Node node, int data) {
-        if (this.head == null || node == null) return;
-        Node newNode = new Node(data);
-        Node prev = node;
-        Node next = node.next;
+    public void append(Node head, int data) {
+        if (this.head == null || head == null) return;
+        Node newNode = new Node(data); //create a new head
+        Node prev = head; //current head point to prev
+        Node next = head.next;
 
         prev.next = newNode;
         newNode.next = next;

@@ -35,7 +35,7 @@ public class InOrderTraversal {
         TreeNode treeNode4 = new TreeNode(4);
         TreeNode treeNode3 = new TreeNode(3, treeNode6, null);
         TreeNode treeNode2 = new TreeNode(2, treeNode4, treeNode5);
-      TreeNode rootNode = new TreeNode(1, treeNode2, treeNode3);
+        TreeNode rootNode = new TreeNode(1, treeNode2, treeNode3);
 
 
         bfs(rootNode);

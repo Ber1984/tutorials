@@ -5,6 +5,6 @@ public class SystemApp {
         var systemA = new SystemA();
         systemA.getData();
         var systemB = new SystemB();
-        systemB.postData();
+        //systemB.postData();
     }
 }
